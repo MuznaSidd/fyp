@@ -457,7 +457,7 @@ if image_pil is not None:
         st.download_button(
             label="⬇️ Download Annotated Image",
             data=buf.getvalue(),
-            file_name="kachra_scan_result.png",
+            file_name="waste_scan_result.png",
             mime="image/png",
         )
 
@@ -481,6 +481,6 @@ else:
 st.markdown("<hr class='section-divider'>", unsafe_allow_html=True)
 st.markdown("""
 <div style='text-align:center;font-family:Space Mono;font-size:0.68rem;color:#333;padding:0.5rem'>
-  KACHRA SCANNER · YOLOv8m Mixed Waste · 9 Classes · Built with Streamlit
+  AI POWERED SMART WASTE SEGREGATION · YOLOv8m Mixed Waste · 9 Classes · Built with Streamlit
 </div>
 """, unsafe_allow_html=True)
